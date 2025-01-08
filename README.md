@@ -17,3 +17,8 @@ greedy_output = model.generate(**model_inputs, max_new_tokens=40)
 
 print("Output:\n" + 100 * '-')
 print(tokenizer.decode(greedy_output[0], skip_special_tokens=True))
+Output:
+----------------------------------------------------------------------------------------------------
+I enjoy walking with my cute dog, but I'm not sure if I'll ever be able to walk with my dog. I'm not sure if I'll ever be able to walk with my dog.
+
+I'm not sure
